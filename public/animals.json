@@ -1,0 +1,28 @@
+{
+  "topic": "Animals",
+  "secrets": [
+    "Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Hippopotamus", "Rhinoceros", "Cheetah", "Leopard", "Jaguar",
+    "Puma", "Lynx", "Bobcat", "Ocelot", "Serval", "Caracal", "Margay", "Jaguarundi", "Sand Cat", "Black-footed Cat",
+    "Bear", "Polar Bear", "Grizzly Bear", "Black Bear", "Panda", "Red Panda", "Koala", "Kangaroo", "Wallaby", "Wombat",
+    "Platypus", "Echidna", "Opossum", "Raccoon", "Skunk", "Badger", "Otter", "Beaver", "Squirrel", "Chipmunk",
+    "Wolf", "Fox", "Coyote", "Jackal", "Hyena", "Wild Dog", "Dingo", "Fennec Fox", "Arctic Fox", "Red Fox",
+    "Monkey", "Chimpanzee", "Gorilla", "Orangutan", "Baboon", "Mandrill", "Macaque", "Lemur", "Sloth", "Armadillo",
+    "Anteater", "Pangolin", "Aardvark", "Mole", "Shrew", "Hedgehog", "Porcupine", "Capybara", "Guinea Pig", "Hamster",
+    "Rat", "Mouse", "Gerbil", "Chinchilla", "Rabbit", "Hare", "Deer", "Elk", "Moose", "Caribou",
+    "Antelope", "Gazelle", "Impala", "Springbok", "Wildebeest", "Buffalo", "Bison", "Yak", "Ox", "Bull",
+    "Cow", "Sheep", "Goat", "Pig", "Horse", "Donkey", "Mule", "Llama", "Alpaca", "Camel",
+    "Dromedary", "Vicuña", "Guanaco", "Tapir", "Okapi", "Dugong", "Manatee", "Walrus", "Seal", "Sea Lion",
+    "Dolphin", "Whale", "Orca", "Beluga", "Narwhal", "Porpoise", "Shark", "Ray", "Stingray", "Manta Ray",
+    "Octopus", "Squid", "Cuttlefish", "Jellyfish", "Starfish", "Sea Urchin", "Crab", "Lobster", "Shrimp", "Barnacle",
+    "Eagle", "Hawk", "Falcon", "Owl", "Parrot", "Peacock", "Swan", "Duck", "Goose", "Pelican",
+    "Flamingo", "Heron", "Crane", "Stork", "Penguin", "Ostrich", "Emu", "Cassowary", "Kiwi", "Turkey",
+    "Chicken", "Rooster", "Pheasant", "Quail", "Pigeon", "Dove", "Crow", "Raven", "Magpie", "Jay",
+    "Robin", "Sparrow", "Finch", "Cardinal", "Woodpecker", "Hummingbird", "Kingfisher", "Toucan", "Hornbill", "Bee-eater",
+    "Snake", "Python", "Boa", "Cobra", "Viper", "Rattlesnake", "Mamba", "Anaconda", "Lizard", "Gecko",
+    "Iguana", "Chameleon", "Monitor", "Skink", "Turtle", "Tortoise", "Alligator", "Crocodile", "Frog", "Toad",
+    "Salamander", "Newt", "Axolotl", "Caecilian", "Fish", "Salmon", "Trout", "Bass", "Tuna", "Swordfish",
+    "Marlin", "Barracuda", "Angelfish", "Clownfish", "Butterfly Fish", "Pufferfish", "Seahorse", "Eel", "Catfish", "Goldfish",
+    "Bee", "Wasp", "Ant", "Termite", "Butterfly", "Moth", "Dragonfly", "Grasshopper", "Cricket", "Beetle",
+    "Ladybug", "Spider", "Scorpion", "Centipede", "Millipede", "Tick", "Flea", "Mosquito", "Fly", "Cicada"
+  ]
+}
