@@ -3,10 +3,10 @@
  */
 
 /** Minimum number of players required to play */
-export const MIN_PLAYERS = 2;
+export const MIN_PLAYERS = 3;
 
 /** Maximum number of players allowed */
-export const MAX_PLAYERS = 5;
+export const MAX_PLAYERS = 10;
 
 /** Number of chameleons in the game */
 export const NUMBER_OF_CHAMELEONS = 1;
