@@ -34,5 +34,26 @@ export const COLOR_OPTIONS = [
   { value: '#fed6e3', label: 'Light Pink' }
 ] as const;
 
-/** Game data file path */
-export const GAME_DATA_PATH = '/animals.json';
+/** Available game themes with metadata */
+export const AVAILABLE_THEMES = [
+  {
+    id: 'animals' as const,
+    name: 'Animals',
+    description: 'Classic theme with animals from around the world',
+    icon: '🦁',
+    filePath: '/animals.json'
+  },
+  {
+    id: 'data-science' as const,
+    name: 'Data Science & ML',
+    description: 'Perfect for data scientists, ML engineers, and tech teams',
+    icon: '📊',
+    filePath: '/data-science.json'
+  }
+];
+
+/** Default theme */
+export const DEFAULT_THEME = AVAILABLE_THEMES[1]; // Data Science theme
+
+/** Game data file path - can be overridden by theme selection */
+export const GAME_DATA_PATH = DEFAULT_THEME.filePath;

@@ -1,0 +1,33 @@
+{
+  "topic": "Data Science & Machine Learning",
+  "secrets": [
+    "Regression", "Classification", "Clustering", "Neural Network", "Deep Learning", "Random Forest", "Decision Tree", "SVM",
+    "Gradient Descent", "Backpropagation", "Cross Validation", "Overfitting", "Underfitting", "Bias Variance", "Feature Selection", "Dimensionality Reduction",
+    "Principal Component Analysis", "t-SNE", "UMAP", "K-Means", "Hierarchical Clustering", "DBSCAN", "Gaussian Mixture", "Ensemble Methods",
+    "Bagging", "Boosting", "XGBoost", "LightGBM", "CatBoost", "AdaBoost", "Gradient Boosting", "Stacking",
+    "Logistic Regression", "Linear Regression", "Ridge Regression", "Lasso Regression", "Elastic Net", "Polynomial Features", "Regularization", "Normalization",
+    "Standardization", "Min Max Scaling", "Robust Scaling", "One Hot Encoding", "Label Encoding", "Target Encoding", "Feature Engineering", "Data Preprocessing",
+    "Missing Values", "Outlier Detection", "Data Cleaning", "Data Wrangling", "ETL Pipeline", "Data Pipeline", "Feature Store", "Data Lake",
+    "Data Warehouse", "Big Data", "Spark", "Hadoop", "Kafka", "Airflow", "MLflow", "Kubeflow",
+    "TensorFlow", "PyTorch", "Scikit Learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly",
+    "Jupyter Notebook", "Google Colab", "Anaconda", "Docker", "Kubernetes", "AWS SageMaker", "Azure ML", "Google Cloud AI",
+    "Convolutional Neural Network", "Recurrent Neural Network", "LSTM", "GRU", "Transformer", "BERT", "GPT", "Attention Mechanism",
+    "Computer Vision", "Natural Language Processing", "Reinforcement Learning", "Generative AI", "GANs", "VAE", "Diffusion Models", "Large Language Models",
+    "Time Series Analysis", "ARIMA", "Prophet", "Seasonal Decomposition", "Forecasting", "Anomaly Detection", "Survival Analysis", "A/B Testing",
+    "Statistical Significance", "P Value", "Confidence Interval", "Hypothesis Testing", "Bayesian Statistics", "Monte Carlo", "Bootstrap", "Permutation Test",
+    "Precision", "Recall", "F1 Score", "ROC Curve", "AUC", "Confusion Matrix", "Accuracy", "Specificity",
+    "Mean Squared Error", "Root Mean Squared Error", "Mean Absolute Error", "R Squared", "Adjusted R Squared", "Log Loss", "Cross Entropy", "Hinge Loss",
+    "Learning Rate", "Batch Size", "Epochs", "Early Stopping", "Dropout", "Batch Normalization", "Weight Decay", "Momentum",
+    "Adam Optimizer", "SGD", "RMSprop", "AdaGrad", "Learning Rate Scheduling", "Hyperparameter Tuning", "Grid Search", "Random Search",
+    "Bayesian Optimization", "Optuna", "Hyperopt", "Ray Tune", "AutoML", "Neural Architecture Search", "Transfer Learning", "Fine Tuning",
+    "Data Augmentation", "Synthetic Data", "SMOTE", "GAN Data Generation", "Active Learning", "Semi Supervised Learning", "Self Supervised Learning", "Few Shot Learning",
+    "Model Interpretability", "SHAP", "LIME", "Feature Importance", "Permutation Importance", "Partial Dependence Plot", "Explainable AI", "Model Fairness",
+    "Bias Detection", "Algorithmic Bias", "Fairness Metrics", "Model Monitoring", "Data Drift", "Concept Drift", "Model Decay", "MLOps",
+    "CI/CD for ML", "Model Versioning", "Model Registry", "A/B Testing", "Shadow Mode", "Canary Deployment", "Blue Green Deployment", "Model Serving",
+    "REST API", "GraphQL", "gRPC", "Model Endpoint", "Batch Inference", "Real Time Inference", "Edge Computing", "Model Compression",
+    "Quantization", "Pruning", "Knowledge Distillation", "ONNX", "TensorRT", "OpenVINO", "TensorFlow Lite", "Core ML",
+    "SQL", "NoSQL", "MongoDB", "Elasticsearch", "Redis", "PostgreSQL", "MySQL", "Snowflake",
+    "dbt", "Great Expectations", "Apache Superset", "Tableau", "Power BI", "Looker", "Grafana", "Streamlit",
+    "Dash", "Shiny", "Observable", "D3.js", "Bokeh", "Altair", "ggplot", "Facets"
+  ]
+}

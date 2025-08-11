@@ -7,6 +7,7 @@ import { GamePhase } from './types/game';
 import { useGameData } from './hooks/useGameData';
 import { useGameLogic } from './hooks/useGameLogic';
 import { useTheme } from './hooks/useTheme';
+import { useThemeSelector } from './hooks/useThemeSelector';
 
 // Components
 import { WelcomeScreen } from './components/WelcomeScreen';
@@ -29,7 +30,8 @@ import { TurnOrderScreen, GameplayScreen } from './components/GameScreens';
  */
 function App() {
   // Custom hooks for different aspects of the game
-  const { gameData, isLoading, error } = useGameData();
+  const { selectedTheme, changeTheme } = useThemeSelector();
+  const { gameData, isLoading, error } = useGameData(selectedTheme);
   const gameLogic = useGameLogic();
   const { color, handleColorChange } = useTheme();
 
@@ -102,6 +104,8 @@ function App() {
             onStartGame={startGame}
             color={color}
             onColorChange={handleColorChange}
+            selectedTheme={selectedTheme}
+            onThemeChange={changeTheme}
           />
         );
 

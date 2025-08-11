@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
-import { GameData } from '../types/game';
-import { GAME_DATA_PATH } from '../constants/game';
+import { GameData, ThemeInfo } from '../types/game';
+import { DEFAULT_THEME } from '../constants/game';
 
 /**
  * Custom hook for loading and managing game data
+ * @param theme - The theme to load data for
  * @returns Object containing game data and loading state
  */
-export const useGameData = () => {
+export const useGameData = (theme: ThemeInfo = DEFAULT_THEME) => {
   const [gameData, setGameData] = useState<GameData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -17,7 +18,7 @@ export const useGameData = () => {
   const loadGameData = async (): Promise<GameData | null> => {
     try {
       setIsLoading(true);
-      const response = await fetch(GAME_DATA_PATH);
+      const response = await fetch(theme.filePath);
       if (!response.ok) {
         throw new Error('Failed to load game data');
       }
@@ -35,10 +36,10 @@ export const useGameData = () => {
     }
   };
 
-  // Load game data on mount
+  // Load game data on mount and when theme changes
   useEffect(() => {
     loadGameData();
-  }, []);
+  }, [theme.filePath]);
 
   return {
     gameData,

@@ -33,6 +33,18 @@ export enum GamePhase {
 /** Player role types */
 export type PlayerRole = 'chameleon' | 'detective';
 
+/** Game theme types */
+export type GameTheme = 'animals' | 'data-science';
+
+/** Theme display information */
+export interface ThemeInfo {
+  id: GameTheme;
+  name: string;
+  description: string;
+  icon: string;
+  filePath: string;
+}
+
 /** Game state interface */
 export interface GameState {
   // Basic game flow

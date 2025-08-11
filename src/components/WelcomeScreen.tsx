@@ -1,10 +1,14 @@
 import React from 'react';
 import { ColorFooter } from './ColorFooter';
+import { ThemeSelector } from './ThemeSelector';
+import { ThemeInfo } from '../types/game';
 
 interface WelcomeScreenProps {
   onStartGame: () => void;
   color: string;
   onColorChange: (color: string) => void;
+  selectedTheme: ThemeInfo;
+  onThemeChange: (theme: ThemeInfo) => void;
 }
 
 /**
@@ -13,7 +17,9 @@ interface WelcomeScreenProps {
 export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
   onStartGame,
   color,
-  onColorChange
+  onColorChange,
+  selectedTheme,
+  onThemeChange
 }) => {
   return (
     <div className="app">
@@ -24,9 +30,15 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
         <h1>The Chameleon</h1>
         <p>A game of bluffing, deduction, and clever clues</p>
         
+        <ThemeSelector
+          selectedTheme={selectedTheme}
+          onThemeChange={onThemeChange}
+          className="welcome-theme-selector"
+        />
+        
         <div className="start-game-section">
           <button className="start-game-btn" onClick={onStartGame}>
-            Start Game
+            Start Game with {selectedTheme.name}
           </button>
         </div>
     
