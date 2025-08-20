@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { GameData, ThemeInfo } from '../types/game';
 import { DEFAULT_THEME } from '../constants/game';
 
@@ -15,7 +15,7 @@ export const useGameData = (theme: ThemeInfo = DEFAULT_THEME) => {
   /**
    * Load game data from JSON file
    */
-  const loadGameData = async (): Promise<GameData | null> => {
+  const loadGameData = useCallback(async (): Promise<GameData | null> => {
     try {
       setIsLoading(true);
       const response = await fetch(theme.filePath);
@@ -34,12 +34,12 @@ export const useGameData = (theme: ThemeInfo = DEFAULT_THEME) => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [theme.filePath]);
 
   // Load game data on mount and when theme changes
   useEffect(() => {
     loadGameData();
-  }, [theme.filePath]);
+  }, [loadGameData]);
 
   return {
     gameData,

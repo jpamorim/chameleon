@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { GameData, PlayerCards, GamePhase } from '../types/game';
 import { NUMBER_OF_CHAMELEONS } from '../constants/game';
+import { shuffleArray } from '../utils/gameHelpers';
 
 /**
  * Custom hook for managing core game logic
@@ -111,8 +112,8 @@ export const useGameLogic = () => {
     
     // Randomly select Chameleons
     const numChameleons = Math.min(NUMBER_OF_CHAMELEONS, playerNames.length - 1);
-    const shuffledIndices = Array.from({ length: playerNames.length }, (_, i) => i)
-      .sort(() => Math.random() - 0.5);
+    const playerIndices = Array.from({ length: playerNames.length }, (_, i) => i);
+    const shuffledIndices = shuffleArray(playerIndices);
     const selectedChameleonIndices = shuffledIndices.slice(0, numChameleons);
     const selectedChameleonNames = selectedChameleonIndices.map(index => playerNames[index]);
     
@@ -126,7 +127,7 @@ export const useGameLogic = () => {
     
     // Assign cards to players
     const cards = Array.from({ length: playerNames.length }, (_, i) => i + 1);
-    const shuffledCards = [...cards].sort(() => Math.random() - 0.5);
+    const shuffledCards = shuffleArray(cards);
     const cardAssignments: PlayerCards = {};
     playerNames.forEach((name, index) => {
       cardAssignments[name] = shuffledCards[index];
