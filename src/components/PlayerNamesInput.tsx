@@ -48,7 +48,7 @@ export const PlayerNamesInput: React.FC<PlayerNamesInputProps> = ({
                   className="name-input"
                   value={name}
                   onChange={(e) => onUpdatePlayerName(index, e.target.value)}
-                  placeholder={`Enter name for Player ${index + 1}`}
+                  placeholder={`Player ${index + 1}`}
                   maxLength={20}
                 />
               </div>

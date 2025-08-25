@@ -163,6 +163,7 @@ function App() {
             currentTopic={currentTopic}
             secretWord={secretWord}
             turnOrder={turnOrder}
+            chameleonNames={chameleonNames}
             onNewRound={resetForNewRound}
             color={color}
             onColorChange={handleColorChange}
