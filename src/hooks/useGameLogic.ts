@@ -64,7 +64,7 @@ export const useGameLogic = () => {
    */
   const selectPlayerCount = (count: number) => {
     setPlayerCount(count);
-    const defaultNames = Array.from({ length: count }, (_, i) => `Player ${i + 1}`);
+    const defaultNames = Array.from({ length: count }, () => '');
     setPlayerNames(defaultNames);
     setCurrentPhase(GamePhase.PLAYER_NAMES);
   };
