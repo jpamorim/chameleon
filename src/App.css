@@ -1894,6 +1894,49 @@ p {
   }
 }
 
+/* Similar Name Warning Styles */
+.name-input.similar-name {
+  border-color: #f39c12 !important;
+  box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.2) !important;
+  background: rgba(243, 156, 18, 0.05);
+}
+
+.similar-name-warning {
+  color: #f39c12;
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.similar-name-warning::before {
+  content: "⚠️";
+  font-size: 0.9rem;
+}
+
+.name-label {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Enhanced name input group */
+.name-input-group {
+  margin-bottom: 1.5rem;
+}
+
+.name-input-group .name-label {
+  transition: color 0.3s ease;
+}
+
+.name-input-group:has(.similar-name) .name-label {
+  color: #f39c12;
+}
+
 /* Modal Styles */
 .modal-overlay {
   position: fixed;

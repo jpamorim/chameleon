@@ -1,0 +1,25 @@
+{
+  "topic": "Professions & Careers",
+  "secrets": [
+    "Doctor", "Nurse", "Surgeon", "Dentist", "Pharmacist", "Veterinarian", "Therapist", "Psychologist", "Psychiatrist", "Radiologist",
+    "Teacher", "Professor", "Principal", "Librarian", "Tutor", "Coach", "Counselor", "Administrator", "Researcher", "Scientist",
+    "Engineer", "Architect", "Designer", "Developer", "Programmer", "Analyst", "Technician", "Electrician", "Plumber", "Mechanic",
+    "Lawyer", "Judge", "Prosecutor", "Attorney", "Paralegal", "Notary", "Mediator", "Investigator", "Detective", "Police Officer",
+    "Firefighter", "Paramedic", "Security Guard", "Military Officer", "Soldier", "Pilot", "Captain", "Navigator", "Air Traffic Controller", "Flight Attendant",
+    "Chef", "Cook", "Baker", "Waiter", "Bartender", "Sommelier", "Restaurant Manager", "Food Critic", "Nutritionist", "Caterer",
+    "Artist", "Musician", "Actor", "Director", "Producer", "Writer", "Journalist", "Editor", "Photographer", "Videographer",
+    "Accountant", "Banker", "Financial Advisor", "Economist", "Auditor", "Bookkeeper", "Insurance Agent", "Real Estate Agent", "Broker", "Consultant",
+    "Sales Representative", "Marketing Manager", "Brand Manager", "PR Specialist", "Advertising Executive", "Social Media Manager", "Content Creator", "Copywriter", "SEO Specialist", "Growth Hacker",
+    "Farmer", "Rancher", "Gardener", "Landscaper", "Florist", "Forester", "Park Ranger", "Marine Biologist", "Geologist", "Meteorologist",
+    "Construction Worker", "Carpenter", "Mason", "Roofer", "Painter", "Welder", "Crane Operator", "Foreman", "Project Manager", "Civil Engineer",
+    "Hairdresser", "Barber", "Makeup Artist", "Stylist", "Fashion Designer", "Tailor", "Seamstress", "Personal Trainer", "Massage Therapist", "Esthetician",
+    "Translator", "Interpreter", "Travel Agent", "Tour Guide", "Hotel Manager", "Concierge", "Event Planner", "Wedding Coordinator", "Party Planner", "Caterer",
+    "Social Worker", "Case Manager", "Youth Worker", "Community Organizer", "Volunteer Coordinator", "Fundraiser", "Grant Writer", "Program Director", "Policy Analyst", "Urban Planner",
+    "Delivery Driver", "Truck Driver", "Bus Driver", "Taxi Driver", "Uber Driver", "Courier", "Mail Carrier", "Shipping Clerk", "Warehouse Worker", "Logistics Coordinator",
+    "Retail Worker", "Cashier", "Store Manager", "Visual Merchandiser", "Buyer", "Inventory Specialist", "Customer Service Representative", "Call Center Agent", "Help Desk Technician", "Support Specialist",
+    "Janitor", "Cleaner", "Housekeeper", "Maintenance Worker", "Facilities Manager", "Property Manager", "Superintendent", "Doorman", "Valet", "Parking Attendant",
+    "Data Scientist", "Data Analyst", "Business Analyst", "Systems Analyst", "Database Administrator", "Network Administrator", "IT Support", "Cybersecurity Specialist", "Software Tester", "DevOps Engineer",
+    "Interior Designer", "Graphic Designer", "Web Designer", "UX Designer", "UI Designer", "Product Designer", "Industrial Designer", "Fashion Designer", "Jewelry Designer", "Game Designer",
+    "Pharmacist", "Lab Technician", "Medical Assistant", "Physical Therapist", "Occupational Therapist", "Speech Therapist", "Respiratory Therapist", "Dental Hygienist", "Medical Records Clerk", "Hospital Administrator"
+  ]
+}

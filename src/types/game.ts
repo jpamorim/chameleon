@@ -34,7 +34,7 @@ export enum GamePhase {
 export type PlayerRole = 'chameleon' | 'detective';
 
 /** Game theme types */
-export type GameTheme = 'animals' | 'data-science';
+export type GameTheme = 'animals' | 'data-science' | 'professions';
 
 /** Theme display information */
 export interface ThemeInfo {

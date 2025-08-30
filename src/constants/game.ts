@@ -49,6 +49,13 @@ export const AVAILABLE_THEMES = [
     description: 'Perfect for data scientists, ML engineers, and tech teams',
     icon: '📊',
     filePath: '/data-science.json'
+  },
+  {
+    id: 'professions' as const,
+    name: 'Professions & Careers',
+    description: 'Explore careers and jobs from every industry',
+    icon: '👩‍💼',
+    filePath: '/professions.json'
   }
 ];
 
